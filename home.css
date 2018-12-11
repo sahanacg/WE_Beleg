@@ -1,0 +1,51 @@
+.start {
+    background-color: orange;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    position: relative;
+
+    
+
+}
+
+
+
+body {
+    background-color: rgba(199, 192, 192, 0.993);
+    padding: 0;
+    margin: 0;
+    
+}
+
+.topnav {
+    
+    background-color:white;
+    margin-top: 100px;
+    margin-left: 400px ;
+    margin-right: 382.6px;
+   
+    
+    
+    
+  }
+  
+
+  .topnav img {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav img:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav img.active {
+    background-color: purple;
+    color: white;
+  }
