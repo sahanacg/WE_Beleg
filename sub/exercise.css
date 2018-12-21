@@ -1,0 +1,43 @@
+.exercise_card {
+    background-color: rgb(60, 235, 118);
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+.exercise_card h3 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    top:20%;
+    color: black;
+    transform: translateY(-50%);
+}
+.exercise_card input {
+    padding: 15px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: static;
+    background-color: rgb(40, 158, 79);
+    display: inline-block;
+    font-size: 24px;
+    color: black;
+    margin-top: 300px;
+    border-color: rgba(165, 42, 42, 0.38);
+    width:332px;
+    font-weight: bold;
+}
+
+.exercise_card ::placeholder {
+    color: rgb(27, 107, 53);
+}
+
+.exercise_card .empty_warning{
+	color: rgb(212, 0, 0);
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: -93px;
+}

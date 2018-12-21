@@ -1,0 +1,112 @@
+.add_card {
+    background-color: rgb(53, 208, 255);
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+.add_card h3 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    top:10%;
+    color:black;
+    transform: translateY(-50%);
+}
+.add_card h4 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top:15%;
+    color:black;
+    transform: translateY(-50%);
+}
+
+.add_card button {
+    padding: 15px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: static;
+    background-color:rgb(27, 165, 255);
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    margin-top: 57px;
+    border-block-end-width: 100%;
+    border-color: rgba(165, 42, 42, 0.38);
+    width:100%;
+    font-weight:bold;
+
+}
+
+.add_card button:hover {
+    background-color: rgba(255, 255, 255, 0.01);
+}
+
+.add_card #input_word{
+    padding: 15px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: static;
+    background-color: rgb(27, 165, 255);
+    border-color: rgba(165, 42, 42, 0.38);
+    display: inline-block;
+    font-size: 24px;
+    color: black;
+    margin-top: 28px;
+    margin-left: 16px;
+    width:300px;
+    font-weight: bold;
+}
+
+.add_card #input_translation {
+    padding: 15px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: static;
+    background-color: rgb(27, 165, 255);
+    border-color: rgba(165, 42, 42, 0.38);
+    display: inline-block;
+    font-size: 24px;
+    color: black;
+    margin-top: 50px;
+    margin-left: 16px;
+    width:300px;
+    font-weight: bold;
+}
+
+.add_card ::placeholder {
+  color: rgb(16, 99, 152);
+}
+
+#overlay {
+        background-color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#overlay_msg {
+	text-align: center;
+	margin-top: -70px;
+	font-size: 30em;
+	color: rgba(0, 0, 0, 0.46);
+}
+
+.add_card .empty_warning{
+	color: rgb(212, 0, 0);
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: -35px;
+}
