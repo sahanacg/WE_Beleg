@@ -2,45 +2,45 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet"  href="sub/wrong.css"/>
+<link rel="stylesheet"  href="sub/correct.css"/>
+<link rel="stylesheet"  href="sub/exercise.css"/>
+<link rel="stylesheet"  href="sub/add.css"/>
+<link rel="stylesheet"  href="sub/no_vocabulary.css"/>
 <link rel="stylesheet"  href="home.css"/>
-
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="sub/exercise_mode.js"></script>
+<script type="text/javascript" src="sub/add_mode.js"></script>
 </head>
 <body>
 <div class="outer">
-        <div class="start"></div>
       <div  class="topnav">
-          <img id="import" src="import.png" style="height:1.5cm; width:1cm"/>
-          <img id="home" src="home.png" style="height:2.25cm; width:1.5cm"/>
-          <img id="export" src="export.png" style="height:1.5cm; width:1cm"/>
+          <div id="import">
+            <img id="import_btn" src="pictures/import.png" style="height:1.05cm; width:0.7cm"/>
+            <span class="tooltiptext">import vocabulary</span>
+          </div>
+          <div id="home">
+            <img id="home_btn" src="pictures/home.png" style="height:1.05cm; width:0.7cm"/>
+            <span class="tooltiptext">back to home</span>
+          </div>
+          <div id="export">
+            <img id="export_btn" src="pictures/export.png" style="height:1.05cm; width:0.7cm"/>
+            <span class="tooltiptext">export vocabulary</span>
+          </div>
+      </div>
+      <div class="home_card">
+        <h3>Welcome <br/> to your personal <br/> Vocabulary Trainer!</h3>
+        <div class="select">
+
+        <select id="mode_chooser">
+            <option id="exercise_mode_option" value="exercise">Exercise</option>
+            <option id="add_mode_option" value="add">Add vocabulary</option>
+        </select>
+        <div>
+            </div>
+            </div>
+        <button type="button" id="start_btn">START</button>
       </div>
 </div>
-
-<!--<table style="width:50%">
-    <tr>
-        <th allign="center">
-                <img src="C:\Users\USER\Downloads\import.png" style="height:1cm; width:1cm">
-        </th>
-        <th allign="center">
-                <img src="C:\Users\USER\Downloads\home.png" style="height:1cm; width:1cm">
-        </th>
-        <th allign="center">
-                <img src="C:\Users\USER\Downloads\export.png" style="height:1cm; width:1cm">
-        </th>
-    </tr>
-
-
-</table>
-<table id="t01" style="width:50%">
-    <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-    </tr>
-</table>-->
-
-
-
-
-
-    </body>
-    </html>
+</body>
+</html>
