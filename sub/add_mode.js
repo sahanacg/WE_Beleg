@@ -1,6 +1,5 @@
 var enter_add_mode = function () {
   document.querySelector('#input_word').focus();
-  hide_empty_warning();
   var add_btn = document.querySelector('#add_btn');
   add_btn.onclick = function () {
     var word = document.querySelector('#input_word').value;

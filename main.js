@@ -90,9 +90,9 @@ var import_as_localstorage = function () {
 }
 
 var trigger_empty_warning = function () {
-  document.querySelector('.empty_warning').hidden = false;
+  document.querySelector('.empty_warning').style = "color:rgb(212, 0, 0)";
 }
 
 var hide_empty_warning = function () {
-  document.querySelector('.empty_warning').hidden = true;
+  document.querySelector('.empty_warning').style = "color:rgba(0, 0, 0, 0";
 }
