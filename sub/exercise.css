@@ -19,12 +19,13 @@
     padding: 15px 32px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    position: static;
+    position: absolute;
     background-color: rgb(40, 158, 79);
     display: inline-block;
     font-size: 24px;
     color: black;
-    margin-top: 300px;
+    bottom: 0;
+    margin-bottom: 0;
     border-color: rgba(165, 42, 42, 0.38);
     width:332px;
     font-weight: bold;

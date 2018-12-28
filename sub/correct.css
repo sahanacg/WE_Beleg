@@ -20,14 +20,14 @@
     padding: 15px 32px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    position: static;
+    position: absolute;
     background-color:green;
-    text-align: center;
     display: inline-block;
     font-size: 24px;
     text-decoration: none;
     color: black;
-    margin-top: 223px;
+    bottom: 0;
+    margin-bottom: 0;
     border-block-end-width: 100%;
     border-color: rgba(165, 42, 42, 0.38);
     width:100%;
@@ -38,4 +38,3 @@
 .correct_card button:hover {
   background-color: rgba(255, 255, 255, 0.01);
 }
-
