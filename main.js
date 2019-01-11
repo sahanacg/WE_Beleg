@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
   })
 
 var initialize = function(){
+  localStorage.clear();
   outer = document.querySelector('.outer');
   home_card = document.querySelector('.home_card');
   mode_chooser = document.querySelector('#mode_chooser');
